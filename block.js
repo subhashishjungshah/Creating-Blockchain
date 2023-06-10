@@ -16,7 +16,6 @@ class Block {
   static mineBlock({ prevBlock, data }) {
     const timeStamp = Date.now();
     const prevHash = prevBlock.hash;
-    console.log(prevHash);
     return new this({
       timeStamp,
       prevHash,
@@ -26,13 +25,4 @@ class Block {
   }
 }
 
-const demo_block = new Block({
-  timeStamp: "04/04/200",
-  prevHash: "0xcac",
-  hash: "0xca",
-  data: "block 1",
-});
-
-// const genesis = Block.genesis();
-const result = Block.mineBlock({ prevBlock: demo_block, data: "block2" });
-console.log(result);
+module.exports = Block;
