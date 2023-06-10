@@ -8,4 +8,4 @@ This project is by no means a complete or secure implementation of blockchain te
 
 Feel free to explore, fork, and make your own modifications as you venture into understanding the power and potential of blockchains. Contributions and feedback are always welcome. Together, we can deepen our knowledge of this transformative technology.
 
-Happy Coding! 💻🚀
+Happy Coding! 💻 🚀
