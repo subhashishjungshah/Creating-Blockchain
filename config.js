@@ -1,7 +1,7 @@
 const GENESIS_BLOCK = {
   timeStamp: 1,
 
-  preHash: "0x000",
+  prevHash: "0x000",
 
   hash: "0x123",
 
