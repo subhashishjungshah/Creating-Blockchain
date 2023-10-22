@@ -16,7 +16,7 @@ class Blockchain {
   }
 
   // Validate function for blockchain
-  static isValidateChain(chain) {
+  isValidateChain(chain) {
     // Check whether first block is zenesis or not
     if (JSON.stringify(chain[0]) !== JSON.stringify(Block.genesis())) {
       return false;
@@ -48,7 +48,7 @@ class Blockchain {
 
   // Longest chain prinicple in blockchain
   replaceChain(chain) {
-    if (chain <= this.chain.length) {
+    if (chain.length <= this.chain.length) {
       console.error("The income chain isn't longer");
       return;
     }
