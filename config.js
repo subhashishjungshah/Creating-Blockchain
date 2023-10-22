@@ -1,4 +1,5 @@
 const INITIAL_DIFFICULTY = 2;
+const MINE_RATE = 1000; // This is in milisec
 const GENESIS_BLOCK = {
   timeStamp: 1,
 
@@ -13,4 +14,4 @@ const GENESIS_BLOCK = {
   data: [],
 };
 
-module.exports = GENESIS_BLOCK;
+module.exports = { GENESIS_BLOCK, MINE_RATE };
