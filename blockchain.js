@@ -59,10 +59,5 @@ class Blockchain {
     this.chain = chain;
   }
 }
-const blockchain = new Blockchain();
-blockchain.addBlock({ data: "block2" });
-blockchain.addBlock({ data: "block 3" });
-blockchain.addBlock({ data: "block 4" });
-console.log(blockchain);
-const result = Blockchain.isValidateChain(blockchain.chain);
-console.log(result);
+
+module.exports = Blockchain;
